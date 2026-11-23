@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Thornwall Tower
+  structure:
+    - type: space
+      key: space-tower
+      title: Tower
+      path: tower
+      default: true
+      content:
+        directory: ./site
