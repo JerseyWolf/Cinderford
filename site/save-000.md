@@ -1,19 +1,19 @@
 # save-000
 
-SOURCE: save_000.md | version=- | bytes=1073 | sha256=23c6827b11eb54e7 | page_bytes=1073
+SOURCE: save_000.md | version=- | bytes=1474 | sha256=53cb6dabc7c6b2db | page_bytes=1474
 
 ````text
-SAVE 000 | follows none (opening state) | D1 Thu 25 March 753 to D1 | pause before play
-RULE0: Before any narration, roll, price, ruling or save, check that every file section the moment depends on was actually retrieved in full. If any needed part is missing, truncated or uncertain, stop and write only "OOC: I need [file name, section]" and wait. Never guess, reconstruct or invent a substitute. A guess presented as fact counts as a failure, even if it turns out to be right.
-DRAFT v2: written in planning 23 Nov 2026. No play has happened.
-BRIEF: the campaign's zero point. A fire burns in a ringed pit at the Cinderford crossroads at first light on Sowing Day, year 753. It is awake. Nobody is there.
-EVENTS: none.
-PEOPLE: none.
-JOKES: none.
-DELTA: coin 0 -> 0. Mana 32/32. Health Bright. Nothing built, bought, owed or promised.
-RULINGS: design rulings Q1 to Q67, Q-R1, Q-R2 are recorded in cinderford_design_brief v6 and folded into the base files. Founder approved by the player (planning, 23 Nov 2026).
+SAVE 000 | follows none (opening state) | D1 Thu 25 March 753 to D1 | pause at arrival on the War Meadow, about 10:00
+RULE0: Before narration, a roll, a price, a ruling or a save, verify every needed file section was actually retrieved in full. If any needed part is missing, truncated or uncertain, write only "OOC: I need [file name, section]" and wait. Never guess, reconstruct or invent substitutes. Missing text is not silence.
+OPENING DRAFT v4 | written in planning 24 Nov 2026 | no play has happened. An opening declaration authorized in planning, not a played checkpoint. Replaces save_000 drafts v1 to v3.
+BRIEF: Mercy Goodheart, a living human healer turned necromancer, owner by three genuine deeds of the Tongue and its facing banks, is set down by a hired carter at the War Meadow, 3 km short of his land, with no minions, two weeks of food and his kit. Gary is on his shoulder.
+EVENTS: none played.
+PEOPLE: none of the eleven met. No history imported from the reference campaign.
+JOKES: Mercy wrote "I Can't Heal Dumb" years ago as a joke; its original manuscript is now enchanted to become his phylactery. No lyrics established.
+DELTA: coin 1,000 -> 1,000; mana 32/32; health Fine; minions 0; remains 0; blood 0; needles about 500; no crystal. Kit bought before arrival, not charged here. Debt and land are the opening premise.
+RULINGS: all player rulings to 24 Nov 2026 are in the base files (02_rules v5 and the files it names).
 END OF PUBLIC
-GM: nothing has moved. See status_000 GM.
+GM: none.
 END
 ````
 

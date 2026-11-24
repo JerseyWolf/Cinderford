@@ -1,87 +1,88 @@
 # rules-p2
 
-SOURCE: 02_rules_cinderford_v1.md | version=1 | bytes=21197 | sha256=adb5c1ac9313b54b | part 2 of 2 | page_bytes=10750
+SOURCE: 02_rules_cinderford_v5.md | version=5 | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 2 of 2 | page_bytes=10463
 
 ````text
-12 SAVE SYSTEM
-INHERITED from Thornwall 12 (status + immutable saves, numbering by checkpoint not day, style and retention, templates, checklist, retrieval and merge), with these changes:
-- Templates: "awake/asleep" becomes "bright/flickering/low/guttering/embers".
-- VITALS: health level, mana/max, act/sense/road range, coin held for the fire, dim clock if running.
-- Add: SITE (buildings, under construction, resources), SETTLERS (current roster and who is away).
-- Drop: GRAVES+, salt, Parson feed, contracts, orders, guild/pool.
-- 12.4 abbreviations: new list for Cinderford, written with 06_settlers.
+7 GARY
+- A familiar and a passive: not a spell, not a minion, outside every cap, no mana (player ruling). He is with Mercy unless sent away.
+- Check base = AI rank base. He acts and rolls separately (hidden). He cannot die: one harmful hit at or above his tier sends him away until the next dawn. Above his tier he can distract, not wound.
+- POWER (player ruling: Gary's rank is the AI rank, for check base and power alike): Novice: small-animal strength; hurts only Danger 10 foes; carries 1 kg; ranges about 100 m. Beginner: hurts foes up to Danger 25; shrugs off one Bruised a day; carries 5 kg; about 300 m. Apprentice: up to Danger 40; once per exchange one foe takes -10 against a defender; about 1 km. Journeyman: up to Danger 60; shrugs off one Hurt a day; lifts a pack; about 3 km. Expert: shares his senses with Mercy; about 10 km. Master: splits into two bodies; ignores Bruised. Grandmaster: ranges the whole vale, and the dead answer him.
+- FORM (player ruling): a living young Blakiston's fish owl: crow-sized, charcoal-barred, floppy ear tufts, huge yellow eyes, feathered legs, silent in flight. Not undead. Character: 06 does not hold him; STATUS FAMILIAR does.
 
-FOOTER (Q36 a): Dn · weekday date 753 · time · mana now/max · act/sense m
+8 PACING AND TIME
+- The world happens around Mercy. No duties are invented for him. Routine days resolve in one paragraph, no rolls, unless the player sets stakes.
+- Mercy eats and sleeps. Time skips on player request only; name anything due before the skip.
+- Year 753. D1 = Thursday 25 March 753. Dn = 25 March 753 + (n-1) days. Months, dates and leap years follow the real Gregorian calendar; weekdays follow real 2027 (25 March 2027 is a Thursday). 753 is a common year; 754 maps to 2028 (leap), and so on.
+- Daylight and normal temperatures: 10_world 10. Weather varies around them.
+- No in-world time passes in planning or repair chats.
 
-ANNEX A - VERBATIM FROM 02_RULES_THORNWALL v7 (sections 6.1, 6.2, 6.3, 6.5, 8, 12). Thornwall-only items inside it (announce format, armour, crossbow, graves, salt, Parson feed, guild, abbreviations, startup list) do not apply; Cinderford sections 5.2, 8 and 12 replace them.
-6.1 Roll only for consequential uncertainty outside code. Chance = base + approach + difficulty + injury/action mods, clamp 5-95.
-Physical approach: Weak -20, Plain 0, Good +15, Brilliant +30. A spell uses its step's check modifier per 09_spells instead of a physical approach (physical Good +15 is not a spell value).
-Difficulty (obstacle vs relevant full rank): one lower Easy +20; equal Normal 0; one higher Hard -20; two+ higher Extreme -40.
-Announce BEFORE the d100: <Check>: <skill/base> · <approach> · <difficulty/reason> · <mods> -> <chance>; <stakes>; <bands>; Danger <n>. Never tune difficulty to the die. Bare number answers the pending check.
-Pre-rolls ALLOWED (speed). FIRST roll counts. Blind rolls: calculate honestly after; result stands. Narrator rolls when the player can't. Player may choose a Danger level for risky work.
-6.2 Bands: 01 critical within scope; <=1/5 chance very big; <=1/2 big; <=chance success; miss 1-10 OUTSIDE Danger zone = success at a cost (time, noise, ground, fatigue, small loss; never fresh injury); larger miss outside zone = failure + fitting setback; failed roll INSIDE zone = failure w harm. A success never takes harm because its number is in the zone.
-6.3 Danger zones: 0 none; 10 = 91-100 (lean wolf, wasters, restless corpse); 25 = 76-100 (boar, trained fighter, three wolves, flooded stairwell); 40 = 61-100 (veteran killer, pack, keep guardian); 60 = 41-100 (dragon, a dozen armed men, collapsing ruin). Failed roll in zone: lower half Bruised, upper half Hurt on the affected part. Badly hurt needs Danger 40+; Down needs 60 or accumulated wounds. Outside combat harm may be kit damage or mishap.
-100 exception: at NONZERO Danger a failed 100 is one level worse than its zone result, THEN armour reduces. DANGER 0 NEVER INJURES. No trading damage for injury; no trading injury for information (a riskier approach = a fresh check).
-6.5 Exchange ~6 s = one MAIN + one OFFHAND. Main: attack, scripted spell, sprint/climb/grapple/lift/mechanism. Offhand: block or parry, a spell whose step 09_spells allows as offhand, quick draw/drop, shout, step, lever, potion, pass item, or second main-type at -20 where allowed. One scripted spell per exchange. A spell 09_spells marks slow takes both slots and is interrupted by a hit. One successful block per exchange. Loom's Thread makes crossbow reload offhand. Multiple opponents: at least Hard, one die each, all must succeed.
-8 HEALTH
-Fine -> Bruised (-5 that part, a day or two) -> Hurt (-20 or impossible; no sparring; ~a week cuts, a month breaks) -> Badly hurt (no fighting/travel; casting double) -> Down (retrieval and recovery). Scratch = narrative. Name part and injury. Two on one part stack one level. Injury needs a failed Danger roll, chosen risk or earned consequence. Scheduled care assumed; clearance required to fight. F can't permanently die or be expelled; retrieval set before unrecoverable danger. NPCs unprotected.
-12 SAVE SYSTEM (compact; LLM-facing)
-12.0 FILES AND NUMBERING
-ONE status_NNN.md=current/pending snapshot replacing older status. Immutable save_NNN.md=lasting events since preceding checkpoint.14_history=merged older events;14_history_addendum=recovered legacy until next merge. Domain bases remain authoritative, ledger alone for progression. No current fact depends on older status.
-N is checkpoint sequence, NOT day arithmetic:001 beganD26,007 endsD33. Increment once on new played sleep/OOC checkpoint; save+status share N. Retry/repair no increment, no duplicate fee. Index not edited at routine saves. Player-authorized16 Nov2026 rewrite001-007 is one-time exception; future saves append-only.
-12.1 STYLE AND RETENTION
-CAPS tags, no tables/bold/decorative headings. One fact/line; clear abbreviations12.4, not cryptic compression. Exact meaningful clue/promise/joke wording with speaker/context. Protect ALL jokes, firsts, disclosures/recipients, habits, consequential outings/jobs, relationship milestones, promises/effects; intimacy short FACT only, never replay.
-Drop redundant recaps, inconsequential routine detail/rolls, expired unaccepted cards, cleared health bookkeeping. Accepted incidental spending may remain unitemized; never invent purchase to balance arithmetic. Unknown dates/knowledge stay uncertain. Size target never licenses protected-data loss.
-12.2 STATUS TEMPLATE
+9 COIN, TOLLS, DEBT
+- Whole coins. Quote every cost (coin, mana, materials, labour-days, remains) before commitment. No automatic purchase, build, hire, rite or fee.
+- Everyday prices and wages: 10_world 7. Necropolis buildings: 07_necropolis. Everything else built, repaired, hired, bought or rented: 07b_prices. Who comes and whether they pay: 08_traffic. Realistic small prices may be quoted only when the files are genuinely silent after retrieval.
+- TOLL CARD (approved as the default; Mercy may change it in play): person on foot 1 · rider or pack beast 2 · cart 5 · heavy wagon 8 · livestock 1 per 5 head · flat boat 10 · laden barge 20 · camp or stall on the banks 1 a night.
+- A cart's toll covers the cart, its team and its carter. Everyone else travelling with it (guards, passengers, a second driver) pays their own (player ruling).
+- A toll is owed once per crossing of the land, at the first bar reached. Nobody pays because it is convenient: whether a party pays, haggles, turns back or forces the passage is theirs to decide from who they are and what they see (hidden, honest). Many will refuse until he is strong (player ruling).
+- BLOOD TOLL (player rulings: any toll may be paid in blood; 100 ml = 1 coin; blood does not spoil; it is the poor's way across). Coin and blood may be mixed. A foot passenger 100 ml, a rider 200 ml, a cart 500 ml.
+- LIMITS (player ruling): no one gives more than 500 ml at one crossing, nor again within eight weeks; a larger toll is split among the party's adults; only adults who agree and look well enough to give. A giver of 500 ml is tired and light-headed for the rest of the day (narrative; no health level). The blood must be given by people, not drained from beasts.
+- A new needle for every giver, never reused (player ruling). Mercy brought a large stock of needles; their count is kept in STATUS. Drawn by Mercy (First aid; no roll for an ordinary draw) or by someone he has trained. Storage: the Blood Store, section 9a.
+- Blood is not coin: it pays no debt and is not sold. It is kept in STATUS as BLOOD (litres in store) and raises vampires (05m: 100 litres each).
+- Mercy may waive or refuse a blood payment. Nobody is bled who has not agreed; a forced draw is a crime anywhere, and the word would travel (08 6).
+- WILL THEY PAY (amends 08_traffic 5): where blood is offered, a party that would fail to pay coin rolls again, once, to pay in blood: the same chance, without the hungry-year penalty, and -10 the first time they see it done. Word (08 6) gains a second face: whether the crossing bleeding the poor reads as mercy or horror, decided in play.
+- DEBT: 10_world 4 (figures approved by the player). Interest 9,120 a year in three parts, first due 25 March 755.
+- A MISSED PAYMENT (player ruling): the lender adds the arrears and a tenth more and sends a collector. A second miss to the same lender gives that nation grounds to dispute its deed, in its own courts. Track the next due date and amount in STATUS.
+
+9a AMENDMENTS TO OTHER FILES (until their next versions)
+- 07_necropolis, ESTATE: add-on Blood Store: 6 LD · 2 stone · jars, stoppers and wax 15c · needs a roof. Sealed jars for 200 litres, dark and counted; a second store holds another 200. The Estate's 200c goods line for raising a vampire is withdrawn (05m v5: blood and mana only).
+- 10_world 9 and 05m v5, THE WAR MEADOW (numbers approved by the player): the unburied dead of the battle of 717, about 4,000 and 600 horses, about one in ten since buried by the Ferry Order; 3 km west, off his land and held by none. One skeleton's worth takes 1 LD to find, lift and carry back; in the first season about one in four found is whole enough to raise, the rest is bone for the Charnel; about one in seven is a horse. A lich candidate (officer, chaplain, battle-mage) is found only by looking: a Deathlore check, a day's search. The Ferry Order holds that these dead wait for burial; taking them is lawful and Hollis Wrenne will hear of it.
+- The Sarnford burial ground on the Tongue is a graveyard and is not used (player ruling).
+
+10 PEOPLE, STANDING, ROMANCE
+- Recurring people and factions: 06_cast. People are named adults with their own wills. Nobody settles, obeys, pays, agrees or builds because it is convenient.
+- Standing, per person: wary -> cool -> neutral -> friendly -> warm -> trusted. Changes only through play; kept in STATUS, never in the footer. Nations and factions: narrative, no meters. Track who has seen the dead walk, who heard which incantation, and who knows what he is.
+- ROMANCE is enabled (player ruling). Only between adults, only where it has grown in play, never assumed and never convenient. The cast's romance lines are tendencies, not permission. Intimate scenes fade out; saves record them as one short fact.
+- NEVER WITH HIS MINIONS. A vampire, lich or any other minion is bound to obey him; Mercy holds that romance with them would be unethical (player ruling). Romance is with the living only.
+
+11 SAVE SYSTEM
+11.0 FILES. ONE status_NNN.md = the current snapshot, replacing the older status. Immutable save_NNN.md = lasting events since the preceding checkpoint. N is a checkpoint sequence, not day arithmetic; save and status share N; increment once per new checkpoint; a retry or repair does not increment. Base files stay authoritative; the rank card alone for ranks. Saves, status and rank cards are delivered as downloads; the player stores them.
+11.1 STYLE. CAPS tags, no tables. One fact per line. Exact wording of meaningful clues, promises and jokes, with speaker and context. Protect all jokes, firsts, disclosures and who heard them, habits, promises, relationship milestones. Drop redundant recaps, routine detail and rolls, cleared health bookkeeping. Never invent a purchase to balance arithmetic. Unknowns stay uncertain.
+11.2 STATUS TEMPLATE
 STATUS NNN | follows status_NNN-1 | actual day/date/time | place | awake/asleep
 RULE0: verbatim above.
-RESUME: exact pause/present/first pending, no replay. For a played sleep this is the wake-up point the save declares.
-VITALS: current health/restrictions,mana/ledger max,coins,salt,sleep;guild/pool from ledger. No former values alongside replacements.
-WEATHER: current/forecast.
-NEXT: actual deadlines/duties/appointments; separate choices/projects. No invented chores.
-RULINGS+: operative new rulings not integrated into bases; replace superseded wording. Integrate only at authorized maintenance.
-GEAR: current ownership/location/custody/loans/gifts(giver+occasion)/outstanding orders, no transaction narrative.
-HOME: current condition/projects/permissions.
-MONEY: balances/debts/terms,last routine-fee checkpoint,genuine unresolved accounting only.
-CONTRACTS: open work/receivables/returns; completed job gone except continuing obligation.
-ORDERS: operative giver/scope, no breach history.
-PEOPLE: current standing/relationship,last established contact,knowledge boundaries/open promises,short historical pointers. No dialogue timeline or neutral resets. New identity/appearance/first meeting lives in originating save until merged into cast.
-THREADS: F current knowledge/inference,evidence+holder,restriction/next step,source for historical exact wording. Separate observation/rumour/inference/GM truth.
-GRAVES+: current counts/permissions against12; exact known total and completed/remaining subset. IDs label existing members, never add graves. No approximate halves or blanket completion. Estimated salt arithmetic reconciled.
-MEMORY SOURCES: short unmerged-save interval/topic map and references for active people/threads, not accumulating event catalogue. Current fact explicit; pointer explains provenance. No COLOUR14 archive.
+RESUME: exact pause point and first pending thing, no replay.
+VITALS: health, mana/max, coin, slept or not.
+WEATHER: current and expected.
+NEXT: real deadlines and appointments only; the next debt date and sum. No invented chores.
+RULINGS+: new player rulings not yet in the base files.
+RANKS: copied from the rank card, with its version.
+MINIONS: count of each type against its cap; squads and where posted; standing orders; destroyed and the day they rise; named vampires and liches with one line of manner each.
+REMAINS: usable remains in store by kind; known sources.
+SITE: what stands, what is under construction with labour-days left, materials in store.
+MONEY: balance; debts and terms; toll rates in force; takings since the last save.
+PEOPLE: per person: standing, last contact, what she knows, open promises.
+THREADS: what Mercy knows or suspects, evidence, next step. Separate observation, rumour and inference.
+PHYLACTERY: where it is and who knows.
+MEMORY SOURCES: which saves hold which topics.
 END OF PUBLIC
-GM: current clocks/scheduled events/private live facts/knowledge boundaries. No layers of old updates/resolved scene scripts. Base secrets require retrieval; unsupported "unset" doesn't erase established secret. Explicit player retcons distinguished from draft errors.
+GM: clocks, scheduled events and hidden rolls already made. Optional; "none" while the campaign has no hidden pages.
 END OF GM
-12.3 SAVE TEMPLATE
+11.3 SAVE TEMPLATE
 SAVE NNN | follows save_NNN-1 | actual start/end day/date | pause/sleep (+ wake-up point if slept)
 RULE0: verbatim above.
-BRIEF: short orientation, no second event transcript.
-EVENTS: topic lines:what happened/result/persistent evidence/exact work counts;material clue wording once.
-PEOPLE: firsts/disclosures/recipients/new identities/relationship changes/promises/habits/intimacy factual. No evergreen state copied unchanged.
-JOKES: every protected gag with speaker/setup/punchline; avoid needless quotation duplicates elsewhere.
-DELTA: opening->closing coins/all changes(incl accepted unitemized incidentals),routine-fee checkpoint,items/custody/salt/health/contracts. Reconcile arithmetic.
-RULINGS: new player rulings, not invented promotions.
+BRIEF: short orientation.
+EVENTS: topic lines: what happened, result, lasting evidence, exact counts.
+PEOPLE: firsts, disclosures, new identities, relationship changes, promises, habits.
+JOKES: every protected gag with speaker, setup and punchline.
+DELTA: opening -> closing coin and every change; minions raised, destroyed, released; remains used and gained; items; health.
+RULINGS: new player rulings.
 END OF PUBLIC
-GM: interval hidden consequences/clock moves, not full private-world copy.
+GM: hidden consequences and clock moves in the interval, or "none".
 END
-Named detail tags allowed; references must match actual filename/tag/topic. Preserve unique historical detail removed from status; never depend on discarded status. Usually<=15000 UTF-8 bytes: review threshold, not deletion limit. Split only with explicit approval and checkpoint mapping.
-HEADER CHECK: the first line of every save/status is exactly its template header above; "follows" names the previous checkpoint of the same kind. Saves 000-017 keep their old headers (no rewrite).
-12.4 ABBREVIATIONS
-F Florence; Fn Fenna (+Ash); G Gary; H Harrow; Hd Hedda; Tm Tamsin; Rn Runa; Kt Katla; Cl Calla; Zf Zofia; Is Isaura; W Old Wim; Tl Tull; Md Maud; Br Bram; M Marrow; Dc Corwen Dace; D# day; -> caused; ~ open; w with; GM gm-only. Add new ones here first.
-12.5 SAVE CHECKLIST
-1 Retrieve full needed source sections; missing/truncated means Rule0.
-2 Preserve new events/protected facts once in new save; actual dates, checkpoint not day number.
-3 Rebuild snapshot, REPLACE earlier facts. Never append dated update layers or retain superseded positive/negative knowledge lists.
-4 Verify coins/salt/debts/custody/grave counts/clocks/sleep/fee idempotency; ledger for its domain. Duplicated state must agree, prefer one location+pointer.
-5 Verify every removed unique protected fact survives in save/history. Pre-period/undated material never falsely assigned current day; preserve uncertainty.
-6 Validate references/names/firsts/recipients/GM-public separation. No private fields in footer/commentary.
-7 Verify files exist/nonempty and measure sizes. Delete old status only when replacement complete; retain all unmerged saves.
-12.6 RETRIEVAL AND MERGE
-Startup per 00_index (README, index, entire current status incl GM, newest save in full, phone slots, narration/rules/latest ledger; 01b_intimacy before intimate beats). Then fully retrieve scene-relevant cast/history/save/base sections BEFORE reliance. Filename/summary/pointer is not retrieval. Check relevant firsts,last encounter,disclosures,habits before NPC speech; older history is targeted, not automatically all loaded. Already-present full source text needn't be reread unnecessarily.
-Merge only on player request per consolidation_rules: fold history/protected detail/legacy addendum into new history,stable facts into bases,current-only status regenerated. Update references to surviving destinations before retiring sources. A repair never becomes play.
-END OF ANNEX A
+11.4 ABBREVIATIONS: M Mercy; G Gary; Dg Dagna Orrik; Ok Oksa High-Cairn; El Elowen Vause; Mz Mazga Tal-Korra; Ns Nissa Fenwicket; Cv Calista Varr; Hw Hollis Wrenne; Kz Kazra Vosk; Br Briar Tolliver; Sy Sylwen Aldaine; Rz Rhezka Ashmantle; D# day; -> caused; ~ open; w with. Add new ones here first.
+11.5 CHECKLIST: 1 retrieve the needed sections in full (else Rule 0). 2 put new events and protected facts once in the new save, with actual dates. 3 rebuild the status as a snapshot that REPLACES earlier facts. 4 verify coin, debts, minion counts against caps, remains, labour-days, rising days. 5 verify nothing protected was lost. 6 check names, firsts and who knows what. 7 verify the files exist and are non-empty.
 
-END OF RULES CINDERFORD v1
+FOOTER (every play reply; accepted by the player): Dn · weekday date 753 · time · mana now/max · coin N. Add the health level only when not Fine. Nothing else.
+
+END OF RULES CINDERFORD v5
 ````
 
-===== END FILE: 02_rules_cinderford_v1.md =====
+===== END FILE: 02_rules_cinderford_v5.md =====

@@ -20,41 +20,25 @@ STARTUP DREAM: index, lesson-chat-instructions, skills-ledger, curriculum, grave
 PLANNING: only the pages the task needs
 
 PAGES
-- https://CHANGE-ME.gitbook.io/cinderford-docs/index.md | 00_index_cinderford_v1.md | bytes=2302 | sha256=1fa076080579e9a0
-- https://CHANGE-ME.gitbook.io/cinderford-docs/narration.md | 01_narration_cinderford_v1.md | bytes=5566 | sha256=9e2b0be6042d9ef2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p1.md | 02_rules_cinderford_v1.md | bytes=21197 | sha256=adb5c1ac9313b54b | part 1/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p2.md | 02_rules_cinderford_v1.md | bytes=21197 | sha256=adb5c1ac9313b54b | part 2/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/project-instructions.md | 03_project_instructions_cinderford_v1.md | bytes=4520 | sha256=453e04f525c9314e
-- https://CHANGE-ME.gitbook.io/cinderford-docs/curriculum-p1.md | 04_curriculum_v4.md | bytes=63617 | sha256=83ae10974c91182b | part 1/5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/curriculum-p2.md | 04_curriculum_v4.md | bytes=63617 | sha256=83ae10974c91182b | part 2/5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/curriculum-p3.md | 04_curriculum_v4.md | bytes=63617 | sha256=83ae10974c91182b | part 3/5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/curriculum-p4.md | 04_curriculum_v4.md | bytes=63617 | sha256=83ae10974c91182b | part 4/5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/curriculum-p5.md | 04_curriculum_v4.md | bytes=63617 | sha256=83ae10974c91182b | part 5/5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gravesong-curriculum-p1.md | 04b_gravesong_curriculum_v1_p1.md | bytes=5496 | sha256=2d080c2cc1a42727
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gravesong-curriculum-p2.md | 04b_gravesong_curriculum_v1_p2.md | bytes=7514 | sha256=f4a0f85893d8012a
-- https://CHANGE-ME.gitbook.io/cinderford-docs/skills-ledger-p1.md | 05_skills_ledger_v10.md | bytes=46071 | sha256=e9756a15d5a44928 | part 1/4
-- https://CHANGE-ME.gitbook.io/cinderford-docs/skills-ledger-p2.md | 05_skills_ledger_v10.md | bytes=46071 | sha256=e9756a15d5a44928 | part 2/4
-- https://CHANGE-ME.gitbook.io/cinderford-docs/skills-ledger-p3.md | 05_skills_ledger_v10.md | bytes=46071 | sha256=e9756a15d5a44928 | part 3/4
-- https://CHANGE-ME.gitbook.io/cinderford-docs/skills-ledger-p4.md | 05_skills_ledger_v10.md | bytes=46071 | sha256=e9756a15d5a44928 | part 4/4
-- https://CHANGE-ME.gitbook.io/cinderford-docs/fire-powers.md | 05h_fire_powers_cinderford_v1.md | bytes=11657 | sha256=39424ca1ca5589c5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/settlers.md | 06_settlers_cinderford_v0.md | bytes=3925 | sha256=73304abc5c8d3e91
-- https://CHANGE-ME.gitbook.io/cinderford-docs/buildings-p1.md | 07_buildings_cinderford_v1.md | bytes=15730 | sha256=697c12edc44ce8ff | part 1/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/buildings-p2.md | 07_buildings_cinderford_v1.md | bytes=15730 | sha256=697c12edc44ce8ff | part 2/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/arrivals.md | 08_arrivals_cinderford_v0.md | bytes=2658 | sha256=ba1511bfacedeb5d
-- https://CHANGE-ME.gitbook.io/cinderford-docs/spells-p1.md | 09_spells_v3.md | bytes=41726 | sha256=fe16321c60d69f8c | part 1/3
-- https://CHANGE-ME.gitbook.io/cinderford-docs/spells-p2.md | 09_spells_v3.md | bytes=41726 | sha256=fe16321c60d69f8c | part 2/3
-- https://CHANGE-ME.gitbook.io/cinderford-docs/spells-p3.md | 09_spells_v3.md | bytes=41726 | sha256=fe16321c60d69f8c | part 3/3
-- https://CHANGE-ME.gitbook.io/cinderford-docs/hearth-spells.md | 09h_hearth_spells_cinderford_v1.md | bytes=13803 | sha256=a8001dfd8f54f696
-- https://CHANGE-ME.gitbook.io/cinderford-docs/world.md | 10_world_cinderford_v0.md | bytes=14762 | sha256=ee04a341885d001e
-- https://CHANGE-ME.gitbook.io/cinderford-docs/lesson-chat-instructions.md | 11_lesson_chat_instructions_cinderford_v1.md | bytes=13209 | sha256=61b99f2dacc53553
-- https://CHANGE-ME.gitbook.io/cinderford-docs/spell-code-p1.md | 13_spell_code_v3.md | bytes=21963 | sha256=d1c41978096fdbf4 | part 1/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/spell-code-p2.md | 13_spell_code_v3.md | bytes=21963 | sha256=d1c41978096fdbf4 | part 2/2
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gm/arrival-tables.md | gm_arrival_tables_cinderford_v0.md | bytes=6553 | sha256=deee6e931a5ff2e5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gm/pantheon.md | gm_pantheon_cinderford_v0.md | bytes=6522 | sha256=5462410c539e69d9
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gm/settlers-gm.md | gm_settlers_gm_cinderford_v0.md | bytes=6763 | sha256=d14576c96eee19f5
-- https://CHANGE-ME.gitbook.io/cinderford-docs/gm/world-gm.md | gm_world_gm_cinderford_v0.md | bytes=7311 | sha256=9c2f56f477954153
-- https://CHANGE-ME.gitbook.io/cinderford-docs/save-000.md | save_000.md | bytes=1073 | sha256=23c6827b11eb54e7
-- https://CHANGE-ME.gitbook.io/cinderford-docs/status.md | status_000.md | bytes=3004 | sha256=45a0c8a22014ea12
+- https://CHANGE-ME.gitbook.io/cinderford-docs/index.md | 00_index_cinderford_v4.md | bytes=2163 | sha256=7b8bcbaf429b8578
+- https://CHANGE-ME.gitbook.io/cinderford-docs/narration.md | 01_narration_cinderford_v2.md | bytes=5133 | sha256=afcb285f689b24bb
+- https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p1.md | 02_rules_cinderford_v5.md | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 1/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p2.md | 02_rules_cinderford_v5.md | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 2/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/project-instructions.md | 03_project_instructions_cinderford_v3.md | bytes=6667 | sha256=b2f0f8185fe81ff2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/rank-card.md | 05_rank_card_cinderford_v1.md | bytes=1491 | sha256=1fc8056bc40a578b
+- https://CHANGE-ME.gitbook.io/cinderford-docs/minions-p1.md | 05m_minions_cinderford_v5.md | bytes=16014 | sha256=194df02e15c91267 | part 1/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/minions-p2.md | 05m_minions_cinderford_v5.md | bytes=16014 | sha256=194df02e15c91267 | part 2/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/cast-p1.md | 06_cast_cinderford_v2.md | bytes=28465 | sha256=9c5fc2c47ce71a8d | part 1/3
+- https://CHANGE-ME.gitbook.io/cinderford-docs/cast-p2.md | 06_cast_cinderford_v2.md | bytes=28465 | sha256=9c5fc2c47ce71a8d | part 2/3
+- https://CHANGE-ME.gitbook.io/cinderford-docs/cast-p3.md | 06_cast_cinderford_v2.md | bytes=28465 | sha256=9c5fc2c47ce71a8d | part 3/3
+- https://CHANGE-ME.gitbook.io/cinderford-docs/necropolis.md | 07_necropolis_cinderford_v1.md | bytes=12647 | sha256=b6aa22031750e09c
+- https://CHANGE-ME.gitbook.io/cinderford-docs/prices.md | 07b_prices_cinderford_v1.md | bytes=9584 | sha256=571de2845db56887
+- https://CHANGE-ME.gitbook.io/cinderford-docs/traffic.md | 08_traffic_cinderford_v1.md | bytes=8995 | sha256=4ed715fa4821b75b
+- https://CHANGE-ME.gitbook.io/cinderford-docs/spells.md | 09n_spells_cinderford_v4.md | bytes=11025 | sha256=fe5608960c258c9a
+- https://CHANGE-ME.gitbook.io/cinderford-docs/world-p1.md | 10_world_cinderford_v4.md | bytes=22474 | sha256=356a39c7d50ab153 | part 1/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/world-p2.md | 10_world_cinderford_v4.md | bytes=22474 | sha256=356a39c7d50ab153 | part 2/2
+- https://CHANGE-ME.gitbook.io/cinderford-docs/save-000.md | save_000.md | bytes=1474 | sha256=53cb6dabc7c6b2db
+- https://CHANGE-ME.gitbook.io/cinderford-docs/status.md | status_000.md | bytes=6460 | sha256=83107ae86e5334a7
 - https://CHANGE-ME.gitbook.io/cinderford-docs/scripts/script-cinder-sync-p1.md | cinder_sync.py | bytes=18885 | sha256=bcd5f38e5be0feb6 | part 1/2
 - https://CHANGE-ME.gitbook.io/cinderford-docs/scripts/script-cinder-sync-p2.md | cinder_sync.py | bytes=18885 | sha256=bcd5f38e5be0feb6 | part 2/2
 

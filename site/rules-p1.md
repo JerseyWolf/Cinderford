@@ -1,102 +1,66 @@
 # rules-p1
 
-SOURCE: 02_rules_cinderford_v1.md | version=1 | bytes=21197 | sha256=adb5c1ac9313b54b | part 1 of 2 | page_bytes=10447
+SOURCE: 02_rules_cinderford_v5.md | version=5 | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 1 of 2 | page_bytes=9730
 
 ````text
-02_RULES CINDERFORD v1 - DRAFT (planning 23 Nov 2026; not canon until the player approves). LLM-facing compact. No tables. Reading advances no time, grants nothing.
-Built on 02_rules_thornwall_v7 (read in full through END OF RULES v7). Where this file says INHERITED, the Thornwall text applies with "F" read as "the fire". The inherited Thornwall sections are printed verbatim in ANNEX A at the end of this file, so nothing is fetched across sites. In the annex read "F" as "the fire"; where the annex and sections 0-12 above differ, the sections above win.
+02_RULES CINDERFORD v5 - (planning 24 Nov 2026; settled with the player for the first session). LLM-facing compact. No tables. Reading advances no time, grants nothing. Replaces 02_rules_cinderford v2 to v4, 02a_rules_addendum v1 and hotfix_rules v1 and v2, all folded in here. Changed in v5: rests are 6 hours; a disturbed rite fails; the manuscript before his first death. Changed in v4: earlier proposals settled; rites run unattended; healing numbers; cart toll; crystals by nation; the War Meadow. Changed in v3: Gary, death and undeath, the blood toll, no romance with minions, footer, pointers to 07b and 08. Self-contained: no annex, no Thornwall file is needed.
+Lines marked [PROPOSED] are the narrator's and wait for the player's yes or no; v5 has none. Check, band, Danger, exchange and save text is kept from v1 and its annex. The rest are player rulings of 23 and 24 Nov 2026.
 
 0 AUTHORITY
-RULE 0 (inherited verbatim from Thornwall 0): Before any narration, roll, price, ruling or save, check that every file section the moment depends on was actually retrieved in full. If any needed part is missing, truncated or uncertain, stop and write only "OOC: I need [file name, section]" and wait. Never guess, reconstruct or invent a substitute. A guess presented as fact counts as a failure, even if it turns out to be right.
-Narrator does all arithmetic and bookkeeping; player chooses, answers, rolls. Never choose the fire's words, thoughts, feelings or intentions. Latest explicit player correction wins. 05_skills_ledger = only authority for subject ranks, units, exams, spells known and steps, familiar, max mana; play reads it, never changes it. Lessons and exams: 04_curriculum section A and 11_lesson_chat_instructions_cinderford win.
+RULE 0: Before any narration, roll, price, ruling or save, check that every file section the moment depends on was actually retrieved in full. If any needed part is missing, truncated or uncertain, stop and write only "OOC: I need [file name, section]" and wait. Never guess, reconstruct or invent a substitute. A guess presented as fact counts as a failure, even if it turns out to be right.
+Narrator does all arithmetic and bookkeeping; player chooses, answers, rolls. Never choose Mercy's words, actions, thoughts, feelings or intentions. Latest explicit player correction wins.
+This project is pure game (player ruling): no lessons, exams, curriculum, mentors or dream chats. Play never teaches, tests or grades.
 
-1 SUBJECTS AND FIRE SKILLS
-1.1 Ladder INHERITED: Novice 20, Beginner 30, Apprentice 45, Journeyman 60, Expert 75, Master 85, Grandmaster 95. A promotion at once gives: new roll base, building-line tier, spell step cap, +3 max mana, and range growth (7.1).
-1.2 Ten subjects -> fire skills (base = subject's current base; skills never grow by use):
-Python -> Flame · Linux/Bash -> Ground · Git/Gerrit -> Mending · Cybersecurity -> Vigil and Veil · Docker/K8s -> Embers · IaC -> Structure · Azure -> Presence · AI -> Insight · CI/CD -> Sparks · Gravesong -> Roads.
-What each rank of each fire skill can do without mana (NATIVE POWERS), and how the fire can speak: 05h_fire_powers. Speech follows the HIGHEST rank held in any subject (player Q64).
-What each rank unlocks to build: 07_buildings (three buildings per skill: building 1 at Novice, 2 at Beginner, 3 at Apprentice; each later rank opens the next level of each; add-ons at any time for resources).
-1.3 Not used in Cinderford: guild rank, gap pressure, pool, mentors (Thornwall 1.3-1.5). Background expertise (Thornwall 1.6: Digging Master, gardening) does not apply: the fire has no hands (player Q58 a).
+1 RANKS
+1.1 Ladder: Novice 20, Beginner 30, Apprentice 45, Journeyman 60, Expert 75, Master 85, Grandmaster 95.
+1.2 05_rank_card is the only record of the ten subjects' ranks and of maximum mana. Ranks are earned in another campaign. They change here only when the player says so ("I've got Beginner in cybersec now"): the narrator then issues a new rank card as a download, and nothing else moves until it is issued. Play never changes a rank by itself.
+1.3 A promotion gives at once: the new check base; the minion type's new cap, tier and rank line (05m); the spell's next step (09n); the next dwelling level to build (07); +3 maximum mana.
+1.4 Mercy's own skills, each rolled on its subject's base: Python: Arms · Linux/Bash: Fieldcraft · Git/Gerrit: First aid (ordinary bandaging, not Healing) · Cybersecurity: Awareness and Stealth · Docker/K8s: Riding and handling · IaC: Athletics · Azure: Persuasion · AI: Insight · CI/CD: Crossbow · Gravesong: Deathlore (the dead, graves, remains, rites). (name accepted by the player) Skills never grow by use.
 
-2 LESSONS AND EXAMS
-Dream chats only, per 11_lesson_chat_instructions_cinderford and 04_curriculum. Examiner: a faceless dream-realm shaped by the subject (Q62). Thornwall 2 and 3 INHERITED for course structure, security gate, unit T, three lenses, unit verdicts, exam sizes, verdicts, sets, simulated-output labels. Mentor references read as "the dream-realm". Familiar hints INHERITED (Gary).
-No in-world time passes in a dream. Any number of dreams fit between play days.
+2 SPELLS, RITES AND HEALING
+- Ten spells, one per subject, step = subject rank: 09n_spells. A spell does exactly its step. Every cast is its incantation, spoken aloud, word for word, heard by everyone in earshot; never silent, never skipped in narration.
+- Raising a minion is a rite: 05m_minions. Never automatic.
+- RITES RUN BY THEMSELVES (player ruling). Mercy touches the remains, speaks the rite and spends the mana at once. The rite's time (05m RAISE line) then passes on its own: he need not stay, channel or watch, and may walk away, sleep or begin other rites, as many as his mana allows. If the remains are moved, broken or burned before the time ends, the rite fails and the mana is lost (player ruling). The risen stands up when the time is done and waits for orders.
+- RAISED WHERE THEY LIE (player ruling): remains may be raised where they are found, on or off his land, and the risen walk home; or remains may be carried home and raised there.
+- HEALING IN NUMBERS (player ruling): one use restores one health level to one person. Afterwards Mercy takes -10 on all checks for an hour. It costs no mana, and every use shows its pain (01_narration 5).
+- CRYSTALS: bought only from the nations, each of which grows them at its own source and sells or withholds them as it sees fit; 2,000 coins where sold (player ruling). Who in each nation, and on what terms: settled in play.
+- Healing and Resurrection are a separate passive skill tied to no rank: 09n_spells 3.
+- Necromancy is painless. Healing is not.
 
-3 SPELLS
-- ONE spell per subject in Cinderford (player Q65): Fire Ring, Wisp Crew, Mend, Blind Eye, Carried Ember, Brace, Sanctuary, Familiar Bond, Spark Volley, Follow. Effects, incantations and anchors: 09h_hearth_spells.
-- Each is anchored to one Thornwall spell of the same subject. WHICH step the fire has: the anchor's step in 05_skills_ledger (CINDERFORD ANCHORS). Thornwall's other spells are not cast here and are not touched (Q66).
-- Unlock, cap, mana cost, speed, action slots, check modifier, code bar: 09_spells sections 2-4, unchanged. Nothing at subject rank Novice. Upgrades only in a dream session, by hand, one step at a time, capped by the subject's full rank.
-- Code: 13_spell_code. Judged, never rolled. An approved step works as written unless something outside its code is uncertain.
-- CASTING ALOUD (Q54 a): every cast is its incantation, heard in the crackle by everyone inside the hearth ring, word for word. Never silent or skipped in narration. Social colour, no penalty.
-- Only Mend heals flesh.
-- A native power (05h) costs no mana and does exactly its line. A spell costs mana and does exactly its step.
+3 MINIONS
+- Types, caps, tiers, minds, raising costs, what the fallen do: 05m_minions. A minion does exactly its lines.
+- Mercy is a living man: he commands by speaking, or by a spell or minion line that says otherwise.
+- Minion rolls are hidden (4.4). In a fight, a minion or squad is compared with its foe by Danger tier (05m 1) and rolls on its subject's base.
 
-4 FAMILIAR AND SUMMONS
-INHERITED from Thornwall 5: Gary; skill = AI rank (Insight base); power = Familiar Bond step; summon cost per 09_spells 3; acts and rolls separately; above tier distracts, not wounds; cannot die.
-Change: harm-forced absence lasts until the next dawn (the fire does not sleep).
-Wisps: the Wisp Crew spell. A wisp does only what its step says; it is not a free action of the fire.
-Combat (Q44): the fire fights only through spells, Gary and wisps.
+4 CHECKS
+4.1 Roll only for consequential uncertainty. d100, roll under. Chance = base + approach + difficulty + injury/action mods, clamp 5-95.
+Approach: Weak -20, Plain 0, Good +15, Brilliant +30. A spell uses its step's check modifier (09n 1) instead of an approach.
+Difficulty (obstacle against the relevant rank): one lower Easy +20; equal Normal 0; one higher Hard -20; two or more higher Extreme -40.
+Never tune difficulty to the die. FIRST roll counts. Pre-rolls allowed. The narrator rolls when the player can't. The player may choose a Danger level for risky work.
+4.2 ANNOUNCE. Before the die, one line: <skill> · chance N (base and only the modifiers that apply) · Danger N if above 0. After the die, one line: rolled N · what happens. Stakes and bands are applied, not printed, unless the player asks.
+4.3 BANDS: 01 critical within scope; up to 1/5 of chance very big; up to 1/2 big; up to chance success; a miss by 1-10 OUTSIDE the Danger zone = success at a cost (time, noise, ground, fatigue, small loss; never fresh injury); a larger miss outside the zone = failure and a fitting setback; a failed roll INSIDE the zone = failure with harm. A success never takes harm because its number is in the zone.
+DANGER ZONES: 0 none; 10 = 91-100 (lean wolf, wasters, restless corpse); 25 = 76-100 (boar, trained fighter, three wolves); 40 = 61-100 (veteran killer, pack); 60 = 41-100 (dragon, a dozen armed men, collapsing ruin). Failed roll in the zone: lower half Bruised, upper half Hurt, on the affected part. Badly hurt needs Danger 40+; Down needs 60 or accumulated wounds. Outside combat harm may be kit damage or mishap. At nonzero Danger a failed 100 is one level worse than its zone result. DANGER 0 NEVER INJURES.
+4.4 Hidden rolls: minions, Gary, other people, foes and the world roll hidden. Only results are narrated. Honest calculation; first roll stands.
+4.5 EXCHANGE, about 6 seconds = one MAIN + one OFFHAND. Main: attack, spell, sprint, climb, grapple, lift, mechanism. Offhand: block or parry, a quick spell (09n 1), draw or drop, shout an order, step, pass an item, or a second main-type action at -20. One spell per exchange. A slow spell takes both slots and is interrupted by a hit. One successful block per exchange. Several opponents: at least Hard, one die each, all must succeed.
+4.6 Danger alone never raises a chance. Accepting harm never buys information. A materially changed situation permits a fresh reading, not a reroll. A building changes what a success achieves, never the chance, unless its line says so.
 
-5 CHECKS
-5.1 INHERITED: roll only for consequential uncertainty outside code. Chance = base + approach + difficulty + injury/action mods, clamp 5-95. Approach Weak -20, Plain 0, Good +15, Brilliant +30; a spell uses its step's check modifier instead. Difficulty one lower Easy +20, equal Normal 0, one higher Hard -20, two+ higher Extreme -40. Never tune difficulty to the die. FIRST roll counts. Pre-rolls allowed. Narrator rolls when the player can't.
-5.2 ANNOUNCE (Q35, replaces Thornwall's long announce line). Before the die, one line:
-<fire skill> · chance N (base ± only the modifiers that apply)
-After the die, one line: rolled N · what happens.
-Stakes, bands and Danger are applied, not printed, unless the player asks. A Danger level above 0 is named in one word with the chance ("Danger 25").
-5.3 Bands and Danger zones: ANNEX A 6.2-6.3 verbatim, harm to the fire read through section 8 below.
-5.4 Hidden rolls (Q35): settlers, visitors, foes and the world roll hidden. Only results are narrated. Honest calculation; results stand.
-5.5 Exchange INHERITED (main + offhand, about 6 s; slow spells take both and are interrupted by a hit; one scripted spell per exchange; multiple opponents per Thornwall 6.5, Twelve Looms exceptions per 09_spells). "A hit" on the fire = any harm to the pit or the fire itself.
-5.6 Building tier changes WHAT a success achieves, never the chance (from Thornwall 6.6), unless written on the building or a spell.
-5.7 Clarifications INHERITED: Danger alone never raises chance; accepting harm never buys information; a materially changed situation permits a fresh reading, not a reroll.
+5 MANA
+- Maximum: rank card (20 + 3 per promotion; now 32).
+- REST (player rulings): a rest is 6 hours of sleep and returns mana in full. He may take up to three rests in a day, with casting between them (cast, rest, cast, rest, cast, rest, cast). A rest cut short returns half. The day is counted from dawn to dawn. At 32 mana that is up to 128 mana in a day, at the cost of 18 hours asleep.
+- At 0, no casting. Pushing: one more spell by explicit player choice only, at the cost of one health level.
+- On a day he resurrects someone, he casts nothing else (09n 3).
 
-6 PACING
-- Ambient by default (Q20): the world happens around the fire. No duties invented for the fire.
-- Montage: routine days resolve in one paragraph, no rolls, unless the player sets stakes (Thornwall 6.7).
-- Time skips on player request only (Q28). Name anything due before the skip.
-- Early saves every few days; daily once the site is busy (Q19).
-- NPC colour INHERITED: fresh humour and gossip allowed; canonical people, places and mechanics bound by Rule 0.
-
-7 RANGE AND MANA
-7.1 Range (Q59). p = full-rank promotions in the ledger. Act range = round(2 + 2p + p(p-4)/8) metres. Sense range = 5 x act (unrounded act, then round). Along a road: 10 x act. At p = 4: act 10 m, sense 50 m, roads 100 m. Damage reduces range (8).
-7.2 Mana max: ledger (20 + 3 per promotion; now 32).
-7.3 Recovery (Q55 d, replaces Thornwall 7 sleep, breakfast, meditation):
-- Trickle: floor(max / 24) per hour, minimum 1. Now 1 per hour.
-- Fuel fed by a person: +1 that hour (not by a wisp).
-- Offering: +3, once per giver per day. An offering is food shared, a coin left, or something given up on purpose.
-- Never above max. Tracked hourly only when it matters; otherwise reconciled at the save.
-7.4 At 0 no casting. Pushing INHERITED: one more spell by explicit player choice only, at the cost of one health level (8).
-
-8 HEALTH OF THE FIRE (Q57 c; replaces Thornwall 8 for the fire)
-Levels: Bright -> Flickering -> Low -> Guttering -> Embers. Scratch = narrative.
-- Flickering: -5 on checks; act and sense range x 3/4. Like Bruised: a day or two.
-- Low: -20 on checks; range x 1/2; max mana -5. Like Hurt.
-- Guttering: casting costs double; range x 1/4; max mana halved; no new summons. Like Badly hurt; needs Danger 40+.
-- Embers: no casting; senses only inside the pit; the dim clock runs. Like Down; needs Danger 60 or accumulated harm.
-Harm sources: water, smothering, scattering, starved fuel, hostile magic, a failed roll inside a Danger zone (5.3: lower half one level, upper half two). Danger 0 never harms.
-Fuel starvation: with no fuel for 24 hours, one level.
-RECOVERY (player Q-R1 a):
-- One level per full day of steady fuel and no fresh harm.
-- Tended (a person rebuilds the pit, banks the coals, feeds dry wood): one extra level, once per day.
-- Mend restores fire health from its Beginner step (09h).
-8.2 Dim clock (Q61): 7. Each full day spent at Embers ticks once. Back to Guttering resets it. At 7 the fire goes out: restart elsewhere with the ledger only (skills and spells); buildings, settlers, coin and standing are lost.
-8.3 Site loss: if the site is destroyed and the core is taken, the same restart applies at once, whatever the clock.
-8.4 Settlers and visitors use Thornwall 8 levels (Fine -> Bruised -> Hurt -> Badly hurt -> Down). NPCs are unprotected. Settler death is permanent (Q43 a).
-
-9 COIN, OFFERINGS, RESOURCES
-- Whole coins. Guest coin is held by the innkeeper on the fire's account (7.7 brief). Quote before commitment. No automatic purchase, build, hire or fee.
-- Resources: coin, fuel, materials, goodwill (brief). Amounts and costs: 07_buildings.
-- Buildings: rank unlocks the blueprint; resources + time build it (Q16).
-- MINOR PRICES INHERITED: realistic everyday prices may be quoted only when files are genuinely silent after retrieval.
-
-10 STANDING
-INHERITED scale (wary -> cool -> neutral -> friendly -> warm -> trusted), per person, changes only through play, never in the footer. Nations: soft and narrative, no meters (Q7 e). Track who heard what was cast or signed. No romance (Q33 a).
-
-11 TIME
-- Year 753 (player Q-R2; no era name yet). D1 = Thursday 25 March 753. Months, dates and leap years follow the real Gregorian calendar; weekdays follow real 2027 (25 March 2027 is a Thursday), so any date can be checked against a 2027 calendar. 753 is a common year (no 29 Feb); 754 maps to 2028 (leap), and so on.
-- Daylight, sunrise and sunset, and normal temperatures: central Poland (Warsaw-like) for the same date. Weather varies around them.
-- The fire never sleeps (Q28). A session runs until the player pauses or skips. No time skip without consent.
-- Day numbering: Dn = 25 March 753 + (n-1) days.
+6 HEALTH AND DEATH
+- Mercy and all living people: Fine -> Bruised (-5 on that part, a day or two) -> Hurt (-20 or impossible; about a week for cuts, a month for breaks) -> Badly hurt (no fighting or travel; casting costs double) -> Down. Scratch = narrative. Name the part and the injury. Two on one part stack one level. Injury needs a failed Danger roll, a chosen risk or an earned consequence.
+- People are unprotected. Death is permanent, unless someone resurrects them (09n 3).
+- MERCY IS ALIVE: a living man of 35 who has never died (player ruling).
+- MERCY'S DEATH (player rulings): he dies if he takes harm while Down, or is left Down with nobody to tend him until the next dawn. He returns from his phylactery one week later, wherever it then is, Fine and at full mana, naked, with only what was kept with the phylactery or on the Tongue; what he carried stays where he fell. While he is dead: 05m 1.
+- UNDEATH. The first time the phylactery brings him back, he comes back dead; from then on he is undead (player ruling). What that changes (sleep and mana, food, healing and its pain, how he looks, how people and priests treat him, his humanity) is NOT SET: the player rules it before or when it first happens. Until then nothing about it is narrated or assumed.
+- THE PHYLACTERY is the original manuscript of his song "I Can't Heal Dumb". It is already enchanted, and becomes a true phylactery at the moment of his first death (player ruling). On Day 1 it is in his healer's satchel. Where he keeps it is his to decide in play.
+- BEFORE HIS FIRST DEATH (player ruling): if the manuscript is destroyed, the enchantment is broken, and he must make a new phylactery before he dies. If he dies with no working phylactery, he dies for good and the campaign ends. How a new one is made (object, rite, cost, time): NOT SET; the player rules it when it is needed.
+- AFTER IT HAS BECOME ONE: if it is destroyed, he dies for good and the campaign ends.
+- Minions: damaged are whole in the morning; destroyed rise after a week (05m 1).
 
 ````
 
-===== END PAGE: 02_rules_cinderford_v1.md | part 1 of 2 =====
+===== END PAGE: 02_rules_cinderford_v5.md | part 1 of 2 =====
