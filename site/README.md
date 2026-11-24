@@ -8,14 +8,14 @@ and page_bytes of all parts add up to bytes. Missing or mismatched = Rule 0.
 Split files: page name + -p1, -p2 ... (see PAGES for the exact list).
 Page URL = https://CHANGE-ME.gitbook.io/cinderford-docs/<page>.md  (GM pages: https://CHANGE-ME.gitbook.io/cinderford-docs/gm/<page>.md). Append ?x=NNN (a new random three-digit number for every fetch).
 
-LATEST SAVE: save-000
+LATEST SAVE: save-001
 PHONE SLOTS are edited on the phone after this sync and may be newer than this README.
 Always fetch all three at https://CHANGE-ME.gitbook.io/cinderford-docs/<slot>.md (no temp/). A slot whose first line is
 SAVE/STATUS NNN higher than LATEST SAVE is the current one. Slot pages are not code-wrapped:
 read to the end of the page.
 
 LOAD LISTS
-STARTUP PLAY: index, narration, rules, skills-ledger, fire-powers, hearth-spells, buildings, settlers, arrivals, world, status, save-000, pending-save, pending-status, pending-hotfix, gm/world-gm, gm/arrival-tables, gm/settlers-gm, gm/pantheon
+STARTUP PLAY: index, narration, rules, skills-ledger, fire-powers, hearth-spells, buildings, settlers, arrivals, world, status, save-001, pending-save, pending-status, pending-hotfix, gm/world-gm, gm/arrival-tables, gm/settlers-gm, gm/pantheon
 STARTUP DREAM: index, lesson-chat-instructions, skills-ledger, curriculum, gravesong-curriculum-p1, gravesong-curriculum-p2, spells, hearth-spells, spell-code, pending-hotfix
 PLANNING: only the pages the task needs
 
@@ -38,7 +38,8 @@ PAGES
 - https://CHANGE-ME.gitbook.io/cinderford-docs/world-p1.md | 10_world_cinderford_v4.md | bytes=22474 | sha256=356a39c7d50ab153 | part 1/2
 - https://CHANGE-ME.gitbook.io/cinderford-docs/world-p2.md | 10_world_cinderford_v4.md | bytes=22474 | sha256=356a39c7d50ab153 | part 2/2
 - https://CHANGE-ME.gitbook.io/cinderford-docs/save-000.md | save_000.md | bytes=1474 | sha256=53cb6dabc7c6b2db
-- https://CHANGE-ME.gitbook.io/cinderford-docs/status.md | status_000.md | bytes=6460 | sha256=83107ae86e5334a7
+- https://CHANGE-ME.gitbook.io/cinderford-docs/save-001.md | save_001.md | bytes=6935 | sha256=cee749bd90690a36
+- https://CHANGE-ME.gitbook.io/cinderford-docs/status.md | status_001.md | bytes=7279 | sha256=c3523b8c66a9e5cf
 - https://CHANGE-ME.gitbook.io/cinderford-docs/scripts/script-cinder-sync-p1.md | cinder_sync.py | bytes=18885 | sha256=bcd5f38e5be0feb6 | part 1/2
 - https://CHANGE-ME.gitbook.io/cinderford-docs/scripts/script-cinder-sync-p2.md | cinder_sync.py | bytes=18885 | sha256=bcd5f38e5be0feb6 | part 2/2
 
