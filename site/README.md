@@ -20,7 +20,7 @@ STARTUP DREAM: index, lesson-chat-instructions, skills-ledger, curriculum, grave
 PLANNING: only the pages the task needs
 
 PAGES
-- https://CHANGE-ME.gitbook.io/cinderford-docs/index.md | 00_index_cinderford_v4.md | bytes=2163 | sha256=7b8bcbaf429b8578
+- https://CHANGE-ME.gitbook.io/cinderford-docs/index.md | 00_index_cinderford_v4.md | bytes=2163 | sha256=0310cae6c2282266
 - https://CHANGE-ME.gitbook.io/cinderford-docs/narration.md | 01_narration_cinderford_v2.md | bytes=5133 | sha256=afcb285f689b24bb
 - https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p1.md | 02_rules_cinderford_v5.md | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 1/2
 - https://CHANGE-ME.gitbook.io/cinderford-docs/rules-p2.md | 02_rules_cinderford_v5.md | bytes=20193 | sha256=8cfe1f0af2c9b527 | part 2/2

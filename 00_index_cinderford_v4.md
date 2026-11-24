@@ -9,7 +9,7 @@ There is no dream or lesson mode in this project. If the mode is unclear, ask OO
 ## STARTUP PLAY (in this order; newest version of each)
 1 00_index
 2 01_narration_cinderford
-3 02_rules_cinderford (v3 or later; no addendum or hotfix is needed with v3)
+3 02_rules_cinderford (v5 or later; no addendum or hotfix is needed with v5)
 4 05_rank_card
 5 05m_minions
 6 09n_spells

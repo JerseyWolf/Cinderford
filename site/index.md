@@ -1,6 +1,6 @@
 # index
 
-SOURCE: 00_index_cinderford_v4.md | version=4 | bytes=2163 | sha256=7b8bcbaf429b8578 | page_bytes=2163
+SOURCE: 00_index_cinderford_v4.md | version=4 | bytes=2163 | sha256=0310cae6c2282266 | page_bytes=2163
 
 ````text
 # 00_index - Cinderford v4 (draft, planning 24 Nov 2026)
@@ -14,7 +14,7 @@ There is no dream or lesson mode in this project. If the mode is unclear, ask OO
 ## STARTUP PLAY (in this order; newest version of each)
 1 00_index
 2 01_narration_cinderford
-3 02_rules_cinderford (v3 or later; no addendum or hotfix is needed with v3)
+3 02_rules_cinderford (v5 or later; no addendum or hotfix is needed with v5)
 4 05_rank_card
 5 05m_minions
 6 09n_spells
